@@ -4,6 +4,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Project from "./routes/Project";
 import Contact from "./routes/Contact";
+import Resume from "./routes/Resume";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,8 +14,10 @@ function App() {
       {/* Route pages */}
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/resume" element={<Resume />} />
       <Route path="/project" element={<Project />} />
       <Route path="/contact" element={<Contact />} />
+
     </Routes>
     </>
   );

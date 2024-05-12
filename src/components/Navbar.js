@@ -34,6 +34,11 @@ const Navbar = () => {
         <li>
           <Link to="/">Home</Link>
         </li>
+        {/* add link to resume page */}
+        <li>
+          <Link to="/resume">Resume</Link>
+        </li>
+        
         {/* add link to project page */}
         <li>
           <Link to="/project">Project</Link>
