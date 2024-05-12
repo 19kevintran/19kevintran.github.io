@@ -27,7 +27,7 @@ const Navbar = () => {
     <div className={color ? "header header-bg" : "header"}>
       {/* Add a Link to the home page */}
       <Link to="/">
-        <h1> Portfolio</h1>
+        <h1>Kevin Tran</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         {/* add link to home page */}
