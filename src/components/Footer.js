@@ -1,5 +1,6 @@
 import "./FooterStyles.css";
 import React from "react";
+import { BsGithub, BsGitlab } from "react-icons/bs";
 import {
   FaHome,
   FaPhone,
@@ -42,6 +43,7 @@ const Footer = () => {
               19kevintran@ou.edu
             </h4>
           </div>
+          
         </div>
 
         <div className="right">
@@ -69,6 +71,24 @@ const Footer = () => {
               />
               kevin-tran-ra9
             </h4>
+            <div className="github">
+            <h4>
+              <BsGithub
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              19kevintran
+            </h4>
+          </div>
+          <div className="gitlab">
+            <h4>
+              <BsGitlab
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+              19kevintran
+            </h4>
+          </div>
           </div>
         </div>
         
