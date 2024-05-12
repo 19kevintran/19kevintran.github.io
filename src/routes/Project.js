@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroImg2 from "../components/HeroImg2";
 import Card from "../components/Card";
-import ProjectCard from "../components/ProjectCard";
+import Work from "../components/Work";
 
 
 
@@ -12,7 +12,7 @@ const Project = () => {
     <div>
         <Navbar/>
         <HeroImg2 heading = "PROJECTS." text = "Some of my most recent works"/>
-        <ProjectCard/>
+        <Work/>
         <Card/>
         <Footer/> 
     </div>

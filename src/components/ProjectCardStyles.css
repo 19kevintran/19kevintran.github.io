@@ -5,11 +5,16 @@
 
 .project-container { 
     max-width: 1140px;
-    margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
+}
+
+.project-card{
+    border: 1px solid white;
+    background: rgb(56, 32, 32);
+    padding: 1.2rem 1rem;
 }
 
 .project-title{ 
@@ -21,6 +26,7 @@
     padding-bottom: 1rem;
     font-size: 1.1rem; 
     text-align: justify;
+    
 }
 
 .project-buttons { 
@@ -62,3 +68,13 @@
     background-color: rgb(17, 180, 221);
     color: rgb(255, 255, 255);
   }
+
+
+@media screen and (max-width: 1040px){
+    .project-container{
+        max-width: 90%;
+        margin:auto;
+        grid-template-columns: 1fr;
+    }
+    
+}
