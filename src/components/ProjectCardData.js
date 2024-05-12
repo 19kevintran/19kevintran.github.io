@@ -1,24 +1,25 @@
-import project1 from "../assets/backgroundimg.jpg";
+import NOTAM_Map from "../assets/NOTAM_Alert_System_Map.png";
 import project2 from "../assets/backgroundimg.jpg";
-import project3 from "../assets/backgroundimg.jpg";
+import SignLanguage from "../assets/SignLanguage.png";
 // make dynamic 
 const ProjectCardData = [
     {
-        imgsrc: project1,
-        title: 'Project 1 TITLE',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        view: 'URL.com',
+        imgsrc: NOTAM_Map,
+        title: 'NOTAM Alert System',
+        text: 'The current NOTAM alert systems suffer from outdated formatting, information overload, insufficient standardization, poor prioritization, and excessive duration. The NOCAP NOTAM alert system allows individual, commercial, and private pilots to check sorted real-time NOTAM alerts in an easily readable manner based on the criticality of the information, making the high-importance data stand out.',
+        // text: 'Notice to Air missions (NOTAMs) are information messages that provide pilots with up-to-date and temporary changes in the aviation environment, such as airport conditions, facility closures, and air traffic control changes. They are a critical component of the aviation information infrastructure, providing accurate and timely information to ensure safety and efficiency for pilots, air traffic controllers, and other aviation stakeholders. As a dynamic data management system, NOTAMs play a vital role in the safe and efficient operation of flights in the technology-reliant aviation industry. The current NOTAM alert systems suffer from outdated formatting, information overload, insufficient standardization, poor prioritization, and excessive duration. The NOCAP NOTAM alert system allows individual, commercial, and private pilots to check sorted real-time NOTAM alerts in an easily readable manner based on the criticality of the information, making the high-importance data stand out.',
+        view: 'https://github.com/trev97/notam-team-project',
     },
     {
         imgsrc: project2,
-        title: 'Project 2 TITLE',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        view: 'URL.com',
+        title: 'CAGE Inventory Management System',
+        text: 'For any company or individual who needs to keep track of inventory, The CAGE is an inventory management system that will help keep track of any personal and/or business inventory. Unlike other inventory management systems, our product will allow businesses, rental companies, and renters to check the equipment at their offices and remotely in the field.',
+        view: 'https://github.com/19kevintran/cage-app',
     },
     {
-        imgsrc: project3,
-        title: 'Project 3 TITLE',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        imgsrc: SignLanguage,
+        title: 'Real Time Sign Language Object Detection',
+        text: 'I trained an object detection model to identify multiple different sign languages using TensorFlow YOLO Object Detection model (Single Shot Multibox Detector), OpenCV, and Python. This project was also used for a workshop for the Artificial Intelligence Organization at the University of Oklahoma.',
         view: 'URL.com',
     },
 ]

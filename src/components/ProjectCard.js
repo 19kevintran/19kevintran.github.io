@@ -11,10 +11,7 @@ const ProjectCard = (props) => {
         <p>{props.text}</p>
         <div className="project-buttons">
           <NavLink to={props.view} className="view-button">
-            View BUTTON
-          </NavLink>
-          <NavLink to="url.com" className="view-button">
-            View BUTTON
+            Visit
           </NavLink>
         </div>
       </div>

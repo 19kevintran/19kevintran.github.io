@@ -12,26 +12,34 @@
 }
 
 .project-card{
-    border: 1px solid white;
-    background: rgb(56, 32, 32);
+    background: rgba(47, 79, 79, 0.144);
     padding: 1.2rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.project-card img{
+    object-fit: cover;
+    border-radius: 0.5rem;
 }
 
 .project-title{ 
     color: white;
+    text-align: center;
     padding: 1rem 0;
 }
 
-.project-details{
+.project-details p{
     padding-bottom: 1rem;
-    font-size: 1.1rem; 
+    font-size: 1rem; 
     text-align: justify;
     
 }
 
 .project-buttons { 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.5rem 0;
 }
 
@@ -76,5 +84,6 @@
         margin:auto;
         grid-template-columns: 1fr;
     }
+    
     
 }
