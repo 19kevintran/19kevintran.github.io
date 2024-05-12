@@ -1,0 +1,64 @@
+.project-heading{ 
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.project-container { 
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.project-title{ 
+    color: white;
+    padding: 1rem 0;
+}
+
+.project-details{
+    padding-bottom: 1rem;
+    font-size: 1.1rem; 
+    text-align: justify;
+}
+
+.project-buttons { 
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+
+.project-buttons .view-button { 
+    padding: 0.5rem 1rem;
+}
+
+.view-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1em;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.5em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background-color: rgb(17, 180, 221);
+    color: rgb(255, 255, 255);
+  }
+  .view-button2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1em;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.5em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.view-button2:hover {
+    background-color: rgb(17, 180, 221);
+    color: rgb(255, 255, 255);
+  }
