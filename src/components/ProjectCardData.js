@@ -1,6 +1,7 @@
 import NOTAM_Map from "../assets/NOTAM_Alert_System_Map.png";
-import project2 from "../assets/Inventory management.webp";
+import CAGE from "../assets/Inventory management.webp";
 import TOTP from "../assets/TOTP.png";
+import DApp from "../assets/DApp.png";
 
 import SignLanguage from "../assets/SignLanguage.png";
 // make dynamic 
@@ -19,7 +20,13 @@ const ProjectCardData = [
         view: 'URL.com',
     },
     {
-        imgsrc: project2,
+        imgsrc: DApp,
+        title: 'Decentralized Marketplace App',
+        text: 'The Decentralized Marketplace App is a blockchain-based application that allows users to buy, list, and sell goods and services without the need for a centralized authority. The app uses a custom Solidity smart contract to facilitate transactions between buyers and sellers, ensuring that all parties are protected and that transactions are secure and transparent. Users can create listings for items they want to sell, browse listings from other users, and make purchases using cryptocurrency. ',
+        view: 'https://github.com/19kevintran/CS5833Project',
+    },
+    {
+        imgsrc: CAGE,
         title: 'CAGE Inventory Management System',
         text: 'For any company or individual who needs to keep track of inventory, The CAGE is an inventory management system that will help keep track of any personal and/or business inventory. Unlike other inventory management systems, our product will allow businesses, rental companies, and renters to check the equipment at their offices and remotely in the field.',
         view: 'https://github.com/19kevintran/cage-app',

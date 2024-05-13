@@ -50,21 +50,7 @@ const Footer = () => {
           <h4>About the me</h4>
           <p>My name is Kevin Tran. I am making a portfolio</p>
           <div className="social">
-            <h4>
-              <FaInstagram
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              kevin._.tran
-            </h4>
-            <h4>
-              <FaSnapchat
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              kevin_tran1
-            </h4>
-            <h4>
+          <h4>
               <NavLink to="https://www.linkedin.com/in/kevin-tran-ra9/">
                 <FaLinkedin
                   size={30}
@@ -95,6 +81,21 @@ const Footer = () => {
                 </NavLink>
               </h4>
             </div>
+            <h4>
+              <FaInstagram
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+              kevin._.tran
+            </h4>
+            <h4>
+              <FaSnapchat
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+              kevin_tran1
+            </h4>
+            
           </div>
         </div>
       </div>
