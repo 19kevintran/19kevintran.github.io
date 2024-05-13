@@ -1,6 +1,7 @@
 import "./FooterStyles.css";
 import React from "react";
 import { BsGithub, BsGitlab } from "react-icons/bs";
+import { NavLink } from "react-router-dom";
 import {
   FaHome,
   FaPhone,
@@ -43,7 +44,6 @@ const Footer = () => {
               19kevintran@ou.edu
             </h4>
           </div>
-          
         </div>
 
         <div className="right">
@@ -65,33 +65,38 @@ const Footer = () => {
               kevin_tran1
             </h4>
             <h4>
-              <FaLinkedin
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              kevin-tran-ra9
+              <NavLink to="https://www.linkedin.com/in/kevin-tran-ra9/">
+                <FaLinkedin
+                  size={30}
+                  style={{ color: "#fff", marginRight: "1rem" }}
+                />
+                kevin-tran-ra9
+              </NavLink>
             </h4>
             <div className="github">
-            <h4>
-              <BsGithub
-                size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
-              />
-              19kevintran
-            </h4>
-          </div>
-          <div className="gitlab">
-            <h4>
-              <BsGitlab
-                size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
-              />
-              19kevintran
-            </h4>
-          </div>
+              <h4>
+                <NavLink to="https://github.com/19kevintran">
+                  <BsGithub
+                    size={20}
+                    style={{ color: "#fff", marginRight: "2rem" }}
+                  />
+                  19kevintran
+                </NavLink>
+              </h4>
+            </div>
+            <div className="gitlab">
+              <h4>
+                <NavLink to="https://gitlab.com/19kevintran">
+                  <BsGitlab
+                    size={20}
+                    style={{ color: "#fff", marginRight: "2rem" }}
+                  />
+                  19kevintran
+                </NavLink>
+              </h4>
+            </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
