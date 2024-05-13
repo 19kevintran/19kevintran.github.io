@@ -2,6 +2,7 @@ import NOTAM_Map from "../assets/NOTAM_Alert_System_Map.png";
 import CAGE from "../assets/Inventory management.webp";
 import TOTP from "../assets/TOTP.png";
 import DApp from "../assets/DApp.png";
+import AudioSearch from "../assets/audiosearch.png";
 
 import SignLanguage from "../assets/SignLanguage.png";
 // make dynamic 
@@ -37,7 +38,13 @@ const ProjectCardData = [
         text: 'I trained an object detection model to identify multiple different sign languages using TensorFlow YOLO Object Detection model (Single Shot Multibox Detector), OpenCV, and Python. This project was also used for a workshop for the Artificial Intelligence Organization at the University of Oklahoma.',
         view: 'URL.com',
     },
-
+    {
+        imgsrc: AudioSearch,
+        title: 'Sabbac Audio Search',
+        text: 'A web application that can recognize music and audio files.',
+        view: 'https://github.com/19kevintran/Lab1AudioSearch',
+    },
+    
 
 ]
 
