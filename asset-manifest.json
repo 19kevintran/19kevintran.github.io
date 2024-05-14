@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7011190b.css",
-    "main.js": "/static/js/main.86ce8588.js",
+    "main.js": "/static/js/main.8d5790cb.js",
     "static/media/SignLanguage.png": "/static/media/SignLanguage.fd10b39fab6ace3fbfb7.png",
     "static/media/TOTP.png": "/static/media/TOTP.2c64da68a44acc89c97c.png",
     "static/media/DApp.png": "/static/media/DApp.6d214b4e892c4f3c3ffe.png",
@@ -13,10 +13,10 @@
     "static/media/CageApp.png": "/static/media/CageApp.49f08ff6c89fa9afea76.png",
     "index.html": "/index.html",
     "main.7011190b.css.map": "/static/css/main.7011190b.css.map",
-    "main.86ce8588.js.map": "/static/js/main.86ce8588.js.map"
+    "main.8d5790cb.js.map": "/static/js/main.8d5790cb.js.map"
   },
   "entrypoints": [
     "static/css/main.7011190b.css",
-    "static/js/main.86ce8588.js"
+    "static/js/main.8d5790cb.js"
   ]
 }
