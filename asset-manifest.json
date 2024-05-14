@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7011190b.css",
+    "main.js": "/static/js/main.f5ae854a.js",
+    "static/media/SignLanguage.png": "/static/media/SignLanguage.fd10b39fab6ace3fbfb7.png",
+    "static/media/TOTP.png": "/static/media/TOTP.2c64da68a44acc89c97c.png",
+    "static/media/DApp.png": "/static/media/DApp.6d214b4e892c4f3c3ffe.png",
+    "static/media/NOTAM_Alert_System_Map.png": "/static/media/NOTAM_Alert_System_Map.b19774626704f0280ac8.png",
+    "static/media/backgroundimg.jpg": "/static/media/backgroundimg.c4b7aa8a0ced8be2b859.jpg",
+    "static/media/hero.avif": "/static/media/hero.91de646ec5a7c5690c7e.avif",
+    "static/media/audiosearch.png": "/static/media/audiosearch.6fe42247d32803783e89.png",
+    "static/media/Inventory management.webp": "/static/media/Inventory management.c23a47523f94a0c3dced.webp",
+    "static/media/CageApp.png": "/static/media/CageApp.49f08ff6c89fa9afea76.png",
+    "index.html": "/index.html",
+    "main.7011190b.css.map": "/static/css/main.7011190b.css.map",
+    "main.f5ae854a.js.map": "/static/js/main.f5ae854a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7011190b.css",
+    "static/js/main.f5ae854a.js"
+  ]
+}
