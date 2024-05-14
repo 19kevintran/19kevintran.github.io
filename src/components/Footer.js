@@ -56,7 +56,7 @@ const Footer = () => {
                   size={30}
                   style={{ color: "#fff", marginRight: "1rem" }}
                 />
-                kevin-tran-ra9
+                LinkedIn
               </NavLink>
             </h4>
             <div className="github">
@@ -66,7 +66,7 @@ const Footer = () => {
                     size={20}
                     style={{ color: "#fff", marginRight: "2rem" }}
                   />
-                  19kevintran
+                  GitHub
                 </NavLink>
               </h4>
             </div>
@@ -77,7 +77,7 @@ const Footer = () => {
                     size={20}
                     style={{ color: "#fff", marginRight: "2rem" }}
                   />
-                  19kevintran
+                  GitLab
                 </NavLink>
               </h4>
             </div>
