@@ -36,7 +36,7 @@ const Navbar = () => {
         </li>
         {/* add link to resume page */}
         <li>
-          <Link to="/resume">Resume</Link>
+          <Link to="https://drive.google.com/file/d/1hAMdJ_Nt1ElloUx2vOQ4JF7hT-jj9YKJ/view?usp=drive_link">Resume</Link>
         </li>
         
         {/* add link to project page */}
