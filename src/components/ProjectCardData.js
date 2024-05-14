@@ -18,7 +18,7 @@ const ProjectCardData = [
         imgsrc: TOTP,
         title: 'TOTP QR Code Double Verification Mobile App',
         text: 'The Peer-to-Peer double verification system ensures the authenticity of both drivers and passengers through a multi-layered approach, utilizing asymmetric cryptography, certificate authority, QR codes, and time-based one-time passwords.',
-        view: 'URL.com',
+        view: 'https://github.com/x43romp/driveauth',
     },
     {
         imgsrc: DApp,
