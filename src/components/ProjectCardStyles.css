@@ -1,54 +1,68 @@
-.project-heading{ 
+.project-heading {
     text-align: center;
     padding: 4rem 0 2rem 0;
 }
-
-.project-container { 
+  
+.project-container {
     max-width: 1140px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(500px, 1fr));
     grid-gap: 40px;
     padding-bottom: 5rem;
 }
-
-.project-card{
+  
+.project-card {
     background: rgba(47, 79, 79, 0.144);
     padding: 1.2rem 1rem;
+    border-radius: 8px;
+    display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center; 
+    text-align: center;
+    transition: transform 0.3s;
 }
-
-.project-card img{
+  
+.project-card:hover {
+    transform: translateY(-5px);
+}
+  
+.project-card img {
     object-fit: cover;
     border-radius: 0.5rem;
+    max-width: 100%;
 }
-
-.project-title{ 
+  
+.project-title {
     color: white;
-    text-align: center;
     padding: 1rem 0;
 }
-
-.project-details p{
+  
+.project-details {
+    flex-grow: 1;
+}
+  
+.project-details p {
     padding-bottom: 1rem;
-    font-size: 1rem; 
+    font-size: 1rem;
     text-align: justify;
-    
 }
 
-.project-buttons { 
+.project-buttons {
     display: flex;
     justify-content: center;
     padding: 0.5rem 0;
 }
 
-
-.project-buttons .view-button { 
+.project-buttons .view-button,
+.project-buttons .view-button2 {
     padding: 0.5rem 1rem;
 }
 
-.view-button {
+.view-button,
+.view-button2 {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 0.5em 1em;
@@ -58,32 +72,16 @@
     cursor: pointer;
 }
 
-.view-button:hover {
-    background-color: rgb(17, 180, 221);
-    color: rgb(255, 255, 255);
-  }
-  .view-button2 {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    padding: 0.5em 1em;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 0.5em;
-    font-weight: 600;
-    cursor: pointer;
-}
-
+.view-button:hover,
 .view-button2:hover {
     background-color: rgb(17, 180, 221);
     color: rgb(255, 255, 255);
 }
 
-
-@media screen and (max-width: 1040px){
-    .project-container{
+@media screen and (max-width: 1040px) {
+    .project-container {
         max-width: 90%;
-        margin:auto;
+        margin: auto;
         grid-template-columns: 1fr;
     }
-    
-    
 }
