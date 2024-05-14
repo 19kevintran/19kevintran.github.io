@@ -1,8 +1,8 @@
 {
-  
   "name": "kt_website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://19kevintran.github.io/kt_website",
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",
     "@testing-library/jest-dom": "^5.17.0",
