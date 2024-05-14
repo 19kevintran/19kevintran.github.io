@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.7011190b.css",
-    "main.js": "/static/js/main.8d5790cb.js",
+    "main.css": "/static/css/main.8a53abb0.css",
+    "main.js": "/static/js/main.880a5a34.js",
+    "static/media/Kevin.PNG": "/static/media/Kevin.5cab01ebcf77128e3fa9.PNG",
     "static/media/SignLanguage.png": "/static/media/SignLanguage.fd10b39fab6ace3fbfb7.png",
     "static/media/TOTP.png": "/static/media/TOTP.2c64da68a44acc89c97c.png",
     "static/media/DApp.png": "/static/media/DApp.6d214b4e892c4f3c3ffe.png",
@@ -12,11 +13,11 @@
     "static/media/Inventory management.webp": "/static/media/Inventory management.c23a47523f94a0c3dced.webp",
     "static/media/CageApp.png": "/static/media/CageApp.49f08ff6c89fa9afea76.png",
     "index.html": "/index.html",
-    "main.7011190b.css.map": "/static/css/main.7011190b.css.map",
-    "main.8d5790cb.js.map": "/static/js/main.8d5790cb.js.map"
+    "main.8a53abb0.css.map": "/static/css/main.8a53abb0.css.map",
+    "main.880a5a34.js.map": "/static/js/main.880a5a34.js.map"
   },
   "entrypoints": [
-    "static/css/main.7011190b.css",
-    "static/js/main.8d5790cb.js"
+    "static/css/main.8a53abb0.css",
+    "static/js/main.880a5a34.js"
   ]
 }
